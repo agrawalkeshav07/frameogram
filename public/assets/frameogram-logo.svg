@@ -1,0 +1,21 @@
+<svg width="960" height="260" viewBox="0 0 960 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">FRAMEOGRAM logo</title>
+  <desc id="desc">FRAMEOGRAM wordmark in white with a yellow glasses mark at the center.</desc>
+  <rect width="960" height="260" rx="38" fill="#050505"/>
+  <g filter="url(#glow)">
+    <text x="40" y="157" fill="#F7F7F2" font-family="Arial Black, Impact, sans-serif" font-size="74" font-weight="900">FRAME</text>
+    <text x="548" y="157" fill="#F7F7F2" font-family="Arial Black, Impact, sans-serif" font-size="74" font-weight="900">GRAM</text>
+    <g transform="translate(404 68) rotate(-5 80 58)">
+      <rect x="3" y="42" width="78" height="72" rx="24" stroke="#F5E900" stroke-width="12"/>
+      <rect x="94" y="42" width="78" height="72" rx="24" stroke="#F5E900" stroke-width="12"/>
+      <path d="M78 74C83 68 91 68 96 74" stroke="#F5E900" stroke-width="12" stroke-linecap="round"/>
+      <path d="M6 50C24 28 49 18 79 21" stroke="#F5E900" stroke-width="10" stroke-linecap="round"/>
+      <path d="M169 50C151 28 126 18 96 21" stroke="#F5E900" stroke-width="10" stroke-linecap="round"/>
+    </g>
+  </g>
+  <defs>
+    <filter id="glow" x="-20" y="-20" width="1000" height="300" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#F5E900" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+</svg>
