@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { notifyWhatsAppConstructionMode } from '../utils/whatsapp';
 
 const baseClasses =
   'group inline-flex min-h-12 items-center justify-center gap-2 rounded-full px-5 py-3 text-sm font-bold transition focus:outline-none focus-visible:ring-2 focus-visible:ring-frame-yellow focus-visible:ring-offset-2 focus-visible:ring-offset-frame-black sm:px-6';
@@ -19,6 +20,13 @@ export default function CTAButton({ href, children, icon: Icon, variant = 'prima
   );
 
   if (href) {
+    const handleLinkClick = (event) => {
+      if (href.includes('wa.me')) {
+        notifyWhatsAppConstructionMode();
+      }
+      onClick?.(event);
+    };
+
     return (
       <motion.a
         href={href}
@@ -27,7 +35,7 @@ export default function CTAButton({ href, children, icon: Icon, variant = 'prima
         className={`${baseClasses} ${styles} ${className}`}
         whileHover={{ y: -2 }}
         whileTap={{ scale: 0.98 }}
-        onClick={onClick}
+        onClick={handleLinkClick}
       >
         {content}
       </motion.a>

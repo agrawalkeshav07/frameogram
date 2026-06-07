@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { useState } from 'react';
 import CTAButton from './CTAButton';
 import SectionHeader from './SectionHeader';
-import { appointmentMessage, whatsappUrl } from '../utils/whatsapp';
+import { appointmentMessage, notifyWhatsAppConstructionMode, whatsappUrl } from '../utils/whatsapp';
 
 const initialForm = {
   name: '',
@@ -22,6 +22,7 @@ export default function AppointmentBooking() {
 
   const submitAppointment = (event) => {
     event.preventDefault();
+    notifyWhatsAppConstructionMode();
     window.open(whatsappUrl(appointmentMessage(form)), '_blank', 'noreferrer');
   };
 

@@ -12,6 +12,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import CursorMagnifier from './components/CursorMagnifier';
 import Preloader from './components/Preloader';
+import WhatsAppConstructionNotice from './components/WhatsAppConstructionNotice';
 
 export default function App() {
   const [loading, setLoading] = useState(true);
@@ -25,6 +26,7 @@ export default function App() {
     <>
       <AnimatePresence mode="wait">{loading && <Preloader />}</AnimatePresence>
       <CursorMagnifier />
+      <WhatsAppConstructionNotice />
       <div className="relative min-h-screen overflow-x-hidden bg-frame-black text-frame-white">
         <Navbar />
         <motion.main

@@ -2,7 +2,7 @@ import { Instagram, MapPin, Menu, MessageCircle, X } from 'lucide-react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useState } from 'react';
 import { business, navItems } from '../data/siteData';
-import { generalInquiryMessage, whatsappUrl } from '../utils/whatsapp';
+import { generalInquiryMessage, notifyWhatsAppConstructionMode, whatsappUrl } from '../utils/whatsapp';
 
 const scrollToSection = (id) => {
   document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -58,6 +58,7 @@ export default function Navbar() {
             href={whatsappUrl(generalInquiryMessage)}
             target="_blank"
             rel="noreferrer"
+            onClick={notifyWhatsAppConstructionMode}
             className="inline-flex items-center gap-2 rounded-full bg-frame-yellow px-5 py-3 text-sm font-bold text-frame-black shadow-glow transition hover:bg-white"
           >
             <MessageCircle className="h-4 w-4" />
@@ -96,6 +97,7 @@ export default function Navbar() {
                 href={whatsappUrl(generalInquiryMessage)}
                 target="_blank"
                 rel="noreferrer"
+                onClick={notifyWhatsAppConstructionMode}
                 className="mt-2 inline-flex items-center justify-center gap-2 rounded-full bg-frame-yellow px-5 py-3 font-bold text-frame-black"
               >
                 <MessageCircle className="h-4 w-4" />
