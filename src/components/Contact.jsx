@@ -28,7 +28,7 @@ export default function Contact() {
           transition={{ duration: 0.6 }}
         >
           <div className="glass-panel rounded-3xl p-6 sm:p-8">
-            <img src="/assets/frameogram-logo.svg" alt="FRAMEOGRAM logo" className="mb-7 w-64 rounded-2xl shadow-softGlow" />
+            <img src="/assets/frameogram-logo.png" alt="FRAMEOGRAM logo" className="mb-7 w-64 rounded-2xl shadow-softGlow" />
             <h3 className="font-display text-3xl font-black text-white">FRAMEOGRAM</h3>
             <p className="mt-2 text-xl font-semibold text-frame-yellow">{business.tagline}</p>
             <div className="mt-8 grid gap-4">

@@ -27,7 +27,7 @@ export default function About() {
           transition={{ duration: 0.6 }}
         >
           <div className="mb-8 flex items-center gap-4">
-            <img src="/assets/frameogram-logo.svg" alt="FRAMEOGRAM logo" className="h-16 w-56 rounded-xl object-cover" />
+            <img src="/assets/frameogram-logo.png" alt="FRAMEOGRAM logo" className="h-16 w-56 rounded-xl object-cover" />
             <div className="hidden h-px flex-1 bg-gradient-to-r from-frame-yellow/50 to-transparent sm:block" />
           </div>
           <p className="text-lg leading-8 text-white/[0.74]">

@@ -18,7 +18,7 @@ export default function Hero() {
           transition={{ duration: 0.75, delay: 0.25 }}
         >
           <img
-            src="/assets/frameogram-logo.svg"
+            src="/assets/frameogram-logo.png"
             alt="FRAMEOGRAM logo"
             className="mb-8 w-72 rounded-2xl border border-frame-yellow/20 shadow-softGlow sm:w-96"
           />

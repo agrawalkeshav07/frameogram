@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="border-t border-white/10 bg-frame-black py-10">
       <div className="section-shell grid gap-8 md:grid-cols-[1fr_1.2fr] md:items-center">
         <div>
-          <img src="/assets/frameogram-logo.svg" alt="FRAMEOGRAM logo" className="w-64 rounded-2xl shadow-softGlow" />
+          <img src="/assets/frameogram-logo.png" alt="FRAMEOGRAM logo" className="w-64 rounded-2xl shadow-softGlow" />
           <p className="mt-4 text-xl font-semibold text-frame-yellow">{business.tagline}</p>
         </div>
         <div className="grid gap-4 text-sm text-white/[0.66] sm:grid-cols-3">

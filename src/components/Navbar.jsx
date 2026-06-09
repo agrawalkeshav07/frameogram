@@ -20,7 +20,7 @@ export default function Navbar() {
     <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-frame-black/[0.72] backdrop-blur-2xl">
       <nav className="section-shell flex h-20 items-center justify-between gap-4">
         <button className="flex items-center gap-3 text-left" onClick={() => handleNav('home')} aria-label="Go to home">
-          <img src="/assets/frameogram-logo.svg" alt="FRAMEOGRAM logo" className="h-11 w-44 rounded-lg object-cover sm:w-52" />
+          <img src="/assets/frameogram-logo.png" alt="FRAMEOGRAM logo" className="h-11 w-44 rounded-lg object-cover sm:w-52" />
         </button>
 
         <div className="hidden items-center gap-1 lg:flex">

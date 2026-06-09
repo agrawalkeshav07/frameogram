@@ -55,6 +55,11 @@ export default function Catalogue() {
                 <img
                   src={product.image}
                   alt={`${product.name} sample`}
+                  onError={(event) => {
+                    const fallback = product.fallbackImage || '/assets/spectacles.png';
+                    if (event.currentTarget.src.endsWith(fallback)) return;
+                    event.currentTarget.src = fallback;
+                  }}
                   className="h-full w-full object-cover transition duration-700 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-frame-black/[0.88] via-frame-black/[0.18] to-transparent" />

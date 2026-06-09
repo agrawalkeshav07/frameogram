@@ -45,6 +45,48 @@ export const productCategories = [
 
 export const catalogueProducts = [
   {
+    name: 'Ray-Ban Clear Grey Round Frame',
+    category: 'Spectacles',
+    image: '/assets/catalogue/rayban-clear-grey-round-frame.png',
+    fallbackImage: '/assets/spectacles.png',
+    price: 'Contact for Price',
+  },
+  {
+    name: 'Ray-Ban Smoke Grey Round Frame',
+    category: 'Spectacles',
+    image: '/assets/catalogue/rayban-smoke-grey-round-frame.png',
+    fallbackImage: '/assets/spectacles.png',
+    price: 'Contact for Price',
+  },
+  {
+    name: 'WARM Purple Round Frame',
+    category: 'Spectacles',
+    image: '/assets/catalogue/warm-purple-round-frame.png',
+    fallbackImage: '/assets/spectacles.png',
+    price: 'Contact for Price',
+  },
+  {
+    name: 'KIWI Olive Round Frame',
+    category: 'Spectacles',
+    image: '/assets/catalogue/kiwi-olive-round-frame.png',
+    fallbackImage: '/assets/spectacles.png',
+    price: 'Contact for Price',
+  },
+  {
+    name: 'Star Ferries Blue Round Frame',
+    category: 'Spectacles',
+    image: '/assets/catalogue/star-ferries-blue-round-frame.png',
+    fallbackImage: '/assets/spectacles.png',
+    price: 'Contact for Price',
+  },
+  {
+    name: 'Qibo Black Green Frame',
+    category: 'Computer Glasses',
+    image: '/assets/catalogue/qibo-black-green-frame.png',
+    fallbackImage: '/assets/computer-glasses.png',
+    price: 'Contact for Price',
+  },
+  {
     name: 'Classic Black Spectacles',
     category: 'Spectacles',
     image: '/assets/spectacles.png',

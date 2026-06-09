@@ -13,7 +13,7 @@ export default function Preloader() {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.45 }}
       >
-        <img src="/assets/frameogram-logo.svg" alt="FRAMEOGRAM" className="w-full rounded-2xl shadow-softGlow" />
+        <img src="/assets/frameogram-logo.png" alt="FRAMEOGRAM" className="w-full rounded-2xl shadow-softGlow" />
         <div className="relative h-1 w-full overflow-hidden rounded-full bg-white/10">
           <span className="absolute inset-y-0 left-0 w-1/2 bg-frame-yellow shadow-glow animate-sweep" />
         </div>
