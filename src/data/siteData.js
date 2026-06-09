@@ -80,9 +80,9 @@ export const catalogueProducts = [
     price: 'Contact for Price',
   },
   {
-    name: 'Qibo Black Green Frame',
+    name: 'QLOO Black Green Frame',
     category: 'Computer Glasses',
-    image: '/assets/catalogue/qibo-black-green-frame.png',
+    image: '/assets/catalogue/qloo-black-green-frame.png',
     fallbackImage: '/assets/computer-glasses.png',
     price: 'Contact for Price',
   },
